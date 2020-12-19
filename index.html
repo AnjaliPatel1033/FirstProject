@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon"" href="images/tray.png">
-<link rel="styleSheet" href="style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>Orange Courtyard  Restaurant </title>
+    <link rel="shortcut icon"" href=" images/tray.png">
+    <link rel="styleSheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Orange Courtyard Restaurant </title>
 </head>
+
 <body>
+    <!-- navbar section -->
+    <nav class="navigation">
+        <div class="logo">logo</div>
+        <ul class="navbar-links">
+            <li>
+                <a href="#header" class="navbar-link">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="navbar-link">About</a>
+            </li>
+            <li>
+                <a href="#gallary" class="navbar-link">Gallary</a>
+            </li>
+            <li>
+                <a href="#menu" class="navbar-link">menu</a>
+            </li>
+            <li>
+                <a href="#booking" class="navbar-link">Reservation</a>
+            </li>
+            <li>
+                <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+        </ul>
+        <div class="burgar">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
     <!-- Hero section -->
     <header id="header">
         <div class="banner">
@@ -18,7 +50,7 @@
                 <div class="banner-width">
                     <p>A place where<br>
                         beautiful people meet to<br>
-                        celebrate life's simple journey.</p> 
+                        celebrate life's simple journey.</p>
                 </div>
             </div>
         </div>
@@ -31,46 +63,50 @@
         <div class="container">
             <div class="row">
                 <div class="aboutLeftside">
-                    <h1 class="heading">about<strong class="heading-title">us</strong></h1> 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nemo possimus, mollitia eligendi magni accusantium excepturi dolores aperiam nihil ut perferendis deleniti accusamus animi voluptatibus sunt ullam voluptate! Eos molestiae nemo ab nostrum ex blanditiis consequuntur ipsam saepe rem dolore dolorum ut, labore commodi praesentium, excepturi repellat officiis repudiandae nisi?</p>
-                    
+                    <h1 class="heading">about<strong class="heading-title">us</strong></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nemo possimus, mollitia eligendi
+                        magni accusantium excepturi dolores aperiam nihil ut perferendis deleniti accusamus animi
+                        voluptatibus sunt ullam voluptate! Eos molestiae nemo ab nostrum ex blanditiis consequuntur
+                        ipsam saepe rem dolore dolorum ut, labore commodi praesentium, excepturi repellat officiis
+                        repudiandae nisi?</p>
+
                 </div>
                 <div class="aboutRightside">
-                        <img src="images/cafe.jpg" class="img-container"  alt=""> 
+                    <img src="images/cafe.jpg" class="img-container" alt="">
                 </div>
             </div>
         </div>
-            <div class="cards">
-                <div class="card">
-                    <span class="icon">
-                        <img src="images/birthday-cake.png" alt="">
-                    </span>
-                    <div class="card-body">
-                        <h3 class="card-heading">Birthday Party</h3>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="icon">
-                        <img src="images/meeting.png" alt="">
-                    </span>
-                    <div class="card-body">
-                        <h3 class="card-heading">Business Meetings</h3>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="icon">
-                        <img src="images/party.png" alt="">
-                    </span>
-                    <div class="card-body">
-                        <h3 class="card-heading">Wedding Party</h3>
-                    </div>
+        <div class="cards">
+            <div class="card">
+                <span class="icon">
+                    <img src="images/birthday-cake.png" alt="">
+                </span>
+                <div class="card-body">
+                    <h3 class="card-heading">Birthday Party</h3>
                 </div>
             </div>
+            <div class="card">
+                <span class="icon">
+                    <img src="images/meeting.png" alt="">
+                </span>
+                <div class="card-body">
+                    <h3 class="card-heading">Business Meetings</h3>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon">
+                    <img src="images/party.png" alt="">
+                </span>
+                <div class="card-body">
+                    <h3 class="card-heading">Wedding Party</h3>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- end about section -->
 
     <!-- image-gallary section -->
-    <section class="image-gallary">
+    <section class="image-gallary" id="gallary">
         <div class="container">
             <h1 class="heading">Image<strong class="heading-title">Gallary</strong></h1>
             <div class="image-cards">
@@ -94,12 +130,12 @@
                 </div>
             </div>
         </div>
-           
+
     </section>
     <!-- end  image-gallary section -->
 
     <!-- menu section -->
-    <section class="menu">
+    <section class="menu" id="menu">
         <div class="container">
             <h1 class="heading">our<strong class="heading-title">signature menu</strong></h1>
             <div class="menu-cards">
@@ -109,55 +145,55 @@
                             <img src="images/menu/mocktail.jpg" alt="">
                         </div>
                         <div class="img-text">
-                           <h2>Mocktail</h2>
+                            <h2>Mocktail</h2>
                             <h3> Mojito, Strawberry Colada, Pink Panther, Fire Engine, etc.
                             </h3>
                         </div>
                     </div>
                 </div>
-               <div class="menu-container">
+                <div class="menu-container">
                     <div class="menu-img">
                         <div class="imgdiv">
                             <img src="images/menu/soup.jpeg" alt="">
                         </div>
                         <div class="img-text">
-                        <h2>Soups</h2>
+                            <h2>Soups</h2>
                             <h3>Cream of Tomato, Cream of Mashroom, Cream of Vegetable, Broccoli, etc.
                             </h3>
                         </div>
                     </div>
-               </div>
-               <div class="menu-container">
+                </div>
+                <div class="menu-container">
                     <div class="menu-img">
                         <div class="imgdiv menu1">
                             <img src="images/menu/sizzlers.jpg" alt="">
                         </div>
-                        <div class="img-text menu2" >
-                        <h2> Smokin’ sizzlers</h2>
+                        <div class="img-text menu2">
+                            <h2> Smokin’ sizzlers</h2>
                             <h3> Come and delight your senses with some lip-smacking sizzlers</h3>
-                        </div>   
+                        </div>
                     </div>
-               </div>
-               <div class="menu-container">
+                </div>
+                <div class="menu-container">
                     <div class="menu-img">
-                        <div class="imgdiv menu1" >
+                        <div class="imgdiv menu1">
                             <img src="images/menu/paneer-tikka-dry.jpg" alt="">
                         </div>
-                        
-                        <div class="img-text menu2" >
+
+                        <div class="img-text menu2">
                             <h2>paneer tikka dry</h2>
                             <h3> Dices of Paneer seasoned in marined Tandoori gravy and searved on a Barbeque Grill</h3>
-                        </div>   
+                        </div>
                     </div>
-               </div>
-                
+                </div>
+
                 <div class="menu-container">
                     <div class="menu-img">
                         <div class="imgdiv">
                             <img src="images/menu/maincoures.jpg" alt="">
                         </div>
                         <div class="img-text">
-                           <h2>Main Course</h2>
+                            <h2>Main Course</h2>
                             <h3>Dal Fry, Aloo Chatpate, Lahori Kofta, Paneer Bhurji, etc.
                             </h3>
                         </div>
@@ -169,24 +205,24 @@
                             <img src="images/menu/dessert.jpg" alt="">
                         </div>
                         <div class="img-text">
-                           <h2>Dessert</h2>
+                            <h2>Dessert</h2>
                             <h3>Vanilla, Chocolate, Strawberry, Butter Scotch, etc.
                             </h3>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <form action="#">
                 <button type="button">Load More</button>
             </form>
         </div>
-        
+
     </section>
     <!-- end menu section -->
 
     <!-- Book table -->
-    <section class="booking">
+    <section class="booking" id="booking">
         <div class="container">
             <h1 class="heading">Make<strong class="heading-title">Reservation</strong></h1>
             <form action="#" class="book-table">
@@ -214,63 +250,68 @@
     <!-- end of book table -->
 
     <!-- contact us -->
-    <section class="contact">
-       <div class="container">
-        <h1 class="heading">Get in<strong class="heading-title">Touch</strong></h1>
-        <div class="row">
-            <div class="contactLeft">
-                <div class="Detail">
-                    <h3>Address</h3>
-                    <div class="content">
-                     <span><i class="fa fa-map-marker"></i>123 Main Street, New York, NY 10030</span>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="heading">Get in<strong class="heading-title">Touch</strong></h1>
+            <div class="row">
+                <div class="contactLeft">
+                    <div class="Detail">
+                        <h3>Address</h3>
+                        <div class="content">
+                            <span><i class="fa fa-map-marker"></i>123 Main Street, New York, NY 10030</span>
+                        </div>
+                        <div class="content">
+                            <span><i class="fa fa-phone"></i>0123-456-789</span>
+                        </div>
+                        <div class="content">
+                            <span><i class="fa fa-envelope"></i>example@gmail.com</span>
+                        </div>
                     </div>
-                    <div class="content">
-                     <span><i class="fa fa-phone"></i>0123-456-789</span>
+                    <div class="subscription">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe to our newsletter to receive exclusive offers and the latest news and services.</p>
+                        <div>
+                            <form action="#">
+                                <input type="email" placeholder="Enter Email address" class="form-control">
+                                <button type="button">Subscribe Now</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="content">
-                     <span><i class="fa fa-envelope"></i>example@gmail.com</span>
-                    </div>
-                </div> 
-               <div class="subscription">
-                <h3>Newsletter</h3>
-                <p>Subscribe to our newsletter to receive exclusive offers and the latest news and services.</p>
-                <div>
-                    <form action="#">
-                        <input type="email" placeholder="Enter Email address" class="form-control">
-                        <button type="button">Subscribe Now</button>
-                    </form>
+                </div>
+                <div class="contactRight">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9750702430833!2d-73.83362048509386!3d40.76257304245798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600f928bb159%3A0x939edd86cd71a6ef!2s123%20Main%20St%2C%20Flushing%2C%20NY%2011354%2C%20USA!5e0!3m2!1sen!2sin!4v1606486184176!5m2!1sen!2sin"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
-            </div>
-            <div class="contactRight">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9750702430833!2d-73.83362048509386!3d40.76257304245798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600f928bb159%3A0x939edd86cd71a6ef!2s123%20Main%20St%2C%20Flushing%2C%20NY%2011354%2C%20USA!5e0!3m2!1sen!2sin!4v1606486184176!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-        </div>        
-       </div>       
+        </div>
     </section>
-<!-- end contact us -->
+    <!-- end contact us -->
 
-<!-- footer section -->
+    <!-- footer section -->
     <footer id="footer">
         <div class="social" id="arrow-icon">
             <a href="#header"><i class="fa fa-arrow-up"></i></a>
         </div>
         <div class="social">
-                <div class="icon">
-                    <i class="fa fa-facebook-f"></i>
-                </div>
-                <div class="icon">
-                    <i class="fa fa-twitter"></i>
-                </div>
-                <div class="icon">
-                    <i class="fa fa-instagram"></i>
-                </div>
-                <div class="icon">
-                    <i class="fa fa-linkedin"></i>
-                </div>
+            <div class="icon">
+                <i class="fa fa-facebook-f"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-twitter"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-instagram"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-linkedin"></i>
+            </div>
         </div>
         <p>2020 © Copyrights. All rights reserved.</p>
     </footer>
     <!-- end footer section -->
+    <script src="script.js"></script>
 </body>
+
 </html>

@@ -50,6 +50,93 @@ body{
 button:hover{
     background-color: var(--mainWhite);
 }
+/* navBar */
+/* #navBar{
+    background-color: var(--mainBlack);
+    color: var(--mainWhite);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 80px;
+    padding: 0 100px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    font-size: 26px;
+}
+.links{
+    width: 40%;
+    height: 100%;
+}
+.links ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: var(--mainWhite);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.link:hover{
+   color: var(--mainYellow);
+} */
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 10vh;
+    align-items: center;
+    background-color: var(--mainBlack);
+    color: #f1f1f1;
+    position: fixed;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    z-index: 99;
+}
+.logo{
+    font-size: 22px;
+    font-weight: 900;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+}
+.navbar-links li{
+    margin-left: 30px;
+}
+.navbar-link{
+    color: #f6f6f6;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.navbar-link:hover{
+    color: var(--mainYellow);
+}
+.burgar div{
+    width: 20px;
+    height: 2px;
+    margin: 5px;
+    background-color: #f6f6f6;
+    transition: all 200ms;
+}
+.toggle .bar1{
+    transform: rotate(45deg) translate(1px,9px);
+}
+.toggle .bar2{
+    transform: scale(0);
+}
+.toggle .bar3{
+    transform: rotate(-45deg) translate(1px,-9px);
+}
+.burgar{
+    display: none;
+}
 
 /* Hero section */
 #header{
@@ -409,6 +496,12 @@ button:hover{
 
 /* media query */
 
+@media only screen and (max-width: 1024px){
+    .link{
+        margin: 0 1rem
+    }
+
+}
 @media only screen and (max-width: 768px){
     .headerName{
         font-size: 3rem;
@@ -416,8 +509,10 @@ button:hover{
     .image-gallary .image-cards{
         margin: 0;
     }
+   
 } 
 @media only screen and (max-width: 600px) {
+  
     .aboutRightside img{
         width: 300px;
     }
@@ -460,5 +555,33 @@ button:hover{
      .heading-title{
         font-size: 2.5rem;
     }
+  }
+  @media only screen and (max-width: 640px) {
+    body{
+        overflow: hidden!important;
+    }
+    .burgar{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar-links{
+        position: absolute;
+        right: 0;
+        top: 10vh;
+        background-color: var(--mainBlack);
+        flex-direction: column;
+        width: 50%;
+        height: 90vh;
+        align-items: center;
+        transform: translateX(100%);
+        transition: all 300ms ease;
+    }
+    .navbar-links li{
+        margin: 1rem 0;
+    }
+    .show-nav{
+        transform: translateX(0%);
+    }
+    
   }
   
